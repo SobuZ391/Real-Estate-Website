@@ -1,0 +1,83 @@
+{
+    "residential_estates": [
+      {
+        "id": 1,
+        "estate_title": "Luxury Villa in Beverly Hills",
+        "segment_name": "Residential",
+        "description": "A spacious and luxurious villa located in the heart of Beverly Hills, featuring stunning views .",
+        "price": "$2,500,000",
+        "status": "Rent",
+        "area": "4500 sq ft",
+        "location": "Beverly Hills, CA",
+        "facilities": ["living room", "swimming pool", "kitchen", "home theater", "gym"],
+        "image": "https://i.ibb.co/fxFFJzs/hills-1.jpg",
+        "view_property_button": "View Property"
+      },
+      {
+        "id": 2,
+        "estate_title": "Modern Apartment in New York City",
+        "segment_name": "Residential",
+        "description": "A modern apartment in the heart of NYC with high-end finishes and access to all  attractions.",
+        "price": "$1,200,000",
+        "status": "Sale",
+        "area": "2000 sq ft",
+        "location": "New York, NY",
+        "facilities": ["living room", "rooftop garden", "kitchen", "gym"],
+        "image": "https://i.ibb.co/Wpr1Yyf/modern.jpg",
+        "view_property_button": "View Property"
+      },
+      {
+        "id": 3,
+        "estate_title": "Cozy Cottage in the Countryside",
+        "segment_name": "Residential",
+        "description": "A charming cottage nestled in the peaceful countryside, perfect for a quiet retreat.",
+        "price": "$800,000",
+        "status": "Rent",
+        "area": "1500 sq ft",
+        "location": "Asheville, NC",
+        "facilities": ["living room", "fireplace", "kitchen", "garden"],
+        "image": "https://i.ibb.co/pJBBjQk/cozy.jpg",
+        "view_property_button": "View Property"
+      },
+      {
+        "id": 4,
+        "estate_title": "Elegant Townhouse in San Francisco",
+        "segment_name": "Residential",
+        "description": "An elegant townhouse located in a prime neighborhood with easy access to services .",
+        "price": "$3,000/month",
+        "status": "Rent",
+        "area": "1800 sq ft",
+        "location": "San Francisco, CA",
+        "facilities": ["living room", "rooftop terrace", "kitchen", "garage"],
+        "image": "https://i.ibb.co/xftW89F/elegant.jpg",
+        "view_property_button": "View Property"
+      },
+      {
+        "id": 5,
+        "estate_title": "Lakefront Cabin in Maine",
+        "segment_name": "Residential",
+        "description": "A cozy cabin located on the lakefront, perfect for a vacation home or year-round living.",
+        "price": "$650,000",
+        "status": "Sale",
+        "area": "1200 sq ft",
+        "location": "Portland, ME",
+        "facilities": ["living room", "fireplace", "kitchen", "deck", "lake access"],
+        "image": "https://i.ibb.co/yBHSccw/lakefront.jpg",
+        "view_property_button": "View Property"
+      },
+      {
+        "id": 6,
+        "estate_title": "Mountain Retreat in Colorado",
+        "segment_name": "Residential",
+        "description": "A beautiful mountain retreat offering breathtaking views and access to hiking trails.",
+        "price": "$1,300,000",
+        "status": "Sale",
+        "area": "3000 sq ft",
+        "location": "Aspen, CO",
+        "facilities": ["living room", "fireplace", "kitchen", "deck", "hiking trails"],
+        "image": "https://i.ibb.co/R7b7jQJ/mountain.jpg",
+        "view_property_button": "View Property"
+      }
+    ]
+  }
+  
