@@ -1,6 +1,6 @@
 #Greenix Real Estate
 
-
+Live LINk: https://b9-a9-real-state-greenix.netlify.app
 
 
 - This is a luxury real estate website
@@ -9,7 +9,7 @@
 
 - It has 3 private route first one is property details and second one is userprofile
 
-- you can update profile 
+- you can update profile and the update profile section is hidden
 
 - it has google login and github login 
 
