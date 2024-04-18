@@ -20,7 +20,7 @@ const Contact = () => {
 	<div className="flex flex-col justify-between">
 		<div className="space-y-2">
 			<h2 className="text-4xl font-bold leading-tight lg:text-5xl">Let's talk!</h2>
-			<div className="dark:text-gray-600">Vivamus in nisl metus? Phasellus.</div>
+			<div className="dark:text-gray-600">You can contact us for any type of inquiry.</div>
 		</div>
 		<img src="/images/customer-service.jpg" alt="" className=" object-cover rounded-lg  p-6 h-52 md:h-64" />
 	</div>
@@ -47,20 +47,28 @@ const Contact = () => {
 		<h2 className="mb-12 text-4xl font-bold leading-none text-center sm:text-5xl">Frequently Asked Questions</h2>
 		<div className="grid gap-10 md:gap-8 sm:p-3 md:grid-cols-2 lg:px-12 xl:px-32">
 			<div>
-				<h3 className="font-semibold">Lorem ipsum dolor sit amet.</h3>
-				<p className="mt-1 dark:text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, fugit? Aspernatur, ullam enim, odit eaque quia rerum ipsum voluptatem consequatur ratione, doloremque debitis? Fuga labore omnis minima, quisquam delectus culpa!</p>
+				<h3 className="font-semibold">Browse and Choose</h3>
+				<p className="mt-1 dark:text-gray-600">Explore our wide range of services on our website. Use the search and filter options to find exactly what you're looking for.</p>
 			</div>
 			<div>
-				<h3 className="font-semibold">Lorem ipsum dolor sit amet.</h3>
-				<p className="mt-1 dark:text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, fugit? Aspernatur, ullam enim, odit eaque quia rerum ipsum voluptatem consequatur ratione, doloremque debitis? Fuga labore omnis minima, quisquam delectus culpa!</p>
+				<h3 className="font-semibold">Place Your Order:</h3>
+				<p className="mt-1 dark:text-gray-600">Once you've made your selection, add the items to your cart and proceed to checkout. Review your order details and choose your preferred shipping method.</p>
 			</div>
 			<div>
-				<h3 className="font-semibold">Lorem ipsum dolor sit amet.</h3>
-				<p className="mt-1 dark:text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, fugit? Aspernatur, ullam enim, odit eaque quia rerum ipsum voluptatem consequatur ratione, doloremque debitis? Fuga labore omnis minima, quisquam delectus culpa!</p>
+				<h3 className="font-semibold">Secure Payment: </h3>
+				<p className="mt-1 dark:text-gray-600">Complete your purchase using our secure payment options, including [list of payment methods, e.g., credit card, PayPal, etc.].</p>
 			</div>
 			<div>
-				<h3 className="font-semibold">Lorem ipsum dolor sit amet.</h3>
-				<p className="mt-1 dark:text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, fugit? Aspernatur, ullam enim, odit eaque quia rerum ipsum voluptatem consequatur ratione, doloremque debitis? Fuga labore omnis minima, quisquam delectus culpa!</p>
+				<h3 className="font-semibold">Order Confirmation: </h3>
+				<p className="mt-1 dark:text-gray-600"> You will receive an order confirmation email with the details of your purchase and estimated delivery time.</p>
+			</div>
+			<div>
+				<h3 className="font-semibold">Order Confirmation: </h3>
+				<p className="mt-1 dark:text-gray-600"> Stay updated on your order's status with our tracking information provided in your confirmation email..</p>
+			</div>
+			<div>
+				<h3 className="font-semibold">Q: Can I return or exchange my purchase?</h3>
+				<p className="mt-1 dark:text-gray-600">A: Yes, we offer a [number]-day return and exchange policy. Please refer to our Return Policy page for more details.</p>
 			</div>
 		</div>
 	</div>
