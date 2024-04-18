@@ -12,6 +12,7 @@ import NotFound from "../Shared/NotFound";
 import PropertyDetails from "../pages/PropertyDetails";
 import PrivateRoute from './../pages/PrivateRoute/PrivateRoute';
 import UserProfile from "../pages/UserProfile";
+import UpdateProfile from "../pages/UpdateProfile";
 
 
 
@@ -48,7 +49,7 @@ const router = createBrowserRouter([
                 element: <Register></Register>
             },
             {
-                path: '/userProfile',
+                path: '/UpdateProfile',
                 element: <PrivateRoute>
                 <UserProfile/>
             </PrivateRoute>
