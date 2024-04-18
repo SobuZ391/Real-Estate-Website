@@ -52,7 +52,7 @@ Meet our exceptional team at Real Estate We take pride in our diverse group of t
 		<div className="grid w-[70%] grid-cols-1 lg:gap-6 md:grid-cols-2">
 			
 			<div className="flex space-x-6">
-				<img alt="" className="flex-1 flex-shrink-0 object-cover h-56 mb-4 bg-center rounded-sm dark:bg-gray-500" src="/public/images/pexels-1.jpg" />
+				<img alt="" className="flex-1 flex-shrink-0 object-cover h-56 mb-4 bg-center rounded-sm dark:bg-gray-500" src="/images/pexels-1.jpg" />
 				<div className="flex flex-col">
 					<h4 className="text-xl font-semibold">Joe Smith</h4>
 					<p className="text-sm dark:text-gray-600">CEO</p>
@@ -125,7 +125,7 @@ Meet our exceptional team at Real Estate We take pride in our diverse group of t
 				</div>
 			</div>
 			<div className="flex space-x-6">
-				<img alt="" className="flex-1 flex-shrink-0 object-contain h-56 mb-4 bg-center rounded-sm dark:bg-gray-500 " src="/public/images/pexels-olly-4.jpg" />
+				<img alt="" className="flex-1 flex-shrink-0 object-contain h-56 mb-4 bg-center rounded-sm dark:bg-gray-500 " src="/images/pexels-olly-4.jpg" />
 				<div className="flex flex-col">
 					<h4 className="text-xl font-semibold">Jhon Jenkins</h4>
 					<p className="text-sm dark:text-gray-600">Manager</p>
