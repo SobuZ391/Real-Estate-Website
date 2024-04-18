@@ -28,11 +28,11 @@ const NavBar = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
                         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                            <Link>Home</Link>
+                            <Link className='btn text-lg  btn-ghost' >Home</Link>
                             <Menus />
                         </ul>
                     </div>
-                    <Link to='/' className="btn btn-ghost font-bold normal-case lg:text-3xl">Greenix Real Estate</Link>
+                    <Link to='/' className="btn btn-ghost font-bold lg:w-[100%]  w-[70%] lg:text-3xl">Greenix Real Estate</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal items-center px-1">
@@ -66,10 +66,10 @@ const NavBar = () => {
                         </div>
                             :
                          <>  <Link to='/login'>
-                                <button className="btn btn-outline  btn-sm  btn-ghost">Login</button>
+                                <button className="btn lg:btn-outline  btn-sm  btn-ghost">Login</button>
                             </Link>
                             <Link to='/register'>
-                                <button className="btn btn-sm btn-outline m-2 btn-ghost">Register</button>
+                                <button className="btn btn-sm lg:btn-outline m-2 btn-ghost">Register</button>
                             </Link>
 
                             </> 

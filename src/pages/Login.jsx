@@ -50,9 +50,9 @@ const Login = () => {
     return (
         <>
             <div className="hero min-h-screen bg-base-200">
-                <div className="hero-content w-[70%] flex-col">
+                <div className="hero-content  lg:w-[70%] flex-col">
                     <div className="text-center lg:text-left">
-                        <h1 className="text-5xl font-bold">Login now!</h1>
+                        <h1 className="text-5xl font-bold border-2 p-3 rounded-xl text-gray-700">Login now!</h1>
                     </div>
                     <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                         <form onSubmit={handleSubmit(onSubmit)} className="card-body">
@@ -91,7 +91,7 @@ const Login = () => {
         {errors.password && <span className="text-red-500">This field is required</span>}
       </div>
                             <div className="form-control mt-6 p-0">
-                                <button type="submit" className="btn btn-neutral">Login</button>
+                                <button type="submit" className="btn btn-primary">Login</button>
                             </div>
                             <label className="label">
                                 New here? <Link to="/register" className="label-text-alt link link-hover">Create an account</Link>

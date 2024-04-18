@@ -61,14 +61,13 @@ const PropertyDetails = () => {
     return (
         <>
         
-        <div className="flex flex-col lg:flex-row border-2 p-4 rounded-xl m-16" >
+        <div className="flex flex-col  border-2 p-4 rounded-xl m-16" >
        
+        <div id="slide1" className="carousel-item relative w-[80%] h-[50vh] mx-auto    rounded-xl">
+    <img  src={estate.image} className=" w-[100%] lg:w-full rounded-xl" />
+   </div>
            
-           <img
-                className=" h-[50vh] object-contain   rounded-xl"
-                src={estate.image}
-                alt={estate.estate_title}
-            />
+         
           
            
             <div className="font-poppins flex flex-col  w-full justify-evenly items-center my-5">
@@ -157,7 +156,7 @@ const PropertyDetails = () => {
 </div>
 
 
-     <div className="border-2  mx-auto  " >
+     <div className="border-2  mx-auto hidden lg:block " >
      <MapContainer center={[51.505, -0.09]} zoom={13} scrollWheelZoom={false} className=" w-[90%] border-2 rounded-xl  lg:w-96 h-96">
   <TileLayer
     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

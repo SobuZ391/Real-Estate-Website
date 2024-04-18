@@ -81,9 +81,9 @@ const Register = () => {
   return (
     <>
       <div className="hero min-h-screen bg-base-200">
-        <div className="hero-content w-[70%] flex-col">
+        <div className="hero-content lg:w-[70%] flex-col">
           <div className="text-center lg:text-left">
-            <h1 className="text-5xl font-bold">Register now!</h1>
+            <h1 className="text-5xl font-bold border-2 p-3 rounded-xl text-gray-700 ">Register now!</h1>
           </div>
           <form
             onSubmit={handleSubmit(onSubmit)}
@@ -152,11 +152,11 @@ const Register = () => {
         {errors.password && <span className="text-red-500">This field is required</span>}
       </div>
               <div className="form-control mt-6 p-0">
-                <button type="submit" className="btn btn-neutral">Register</button>
+                <button type="submit" className="btn  btn-primary ">Register</button>
               </div>
               <label className="label">
                 Have an account?{" "}
-                <Link to="/login" className="label-text-alt link link-hover">
+                <Link to="/login" className="label-text-alt  link link-hover">
                   Please Login
                 </Link>
               </label>
