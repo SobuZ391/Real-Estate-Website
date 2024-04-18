@@ -5,7 +5,7 @@ import useAuth from '../Hooks/useAuth';
 
 
 const Menus = () => {
-    const links = [ 'about', 'featured', 'contact','UserProfile'];
+    const links = [ 'About', 'Featured', 'Contact','UserProfile'];
     return (
         <>
             {
