@@ -3,26 +3,13 @@
 
 
 
--This is a luxury real estate website
-
-
-
+- This is a luxury real estate website
 
 - In this website there is json file with 6 objecet data
 
+- It has 3 private route first one is property details and second one is userprofile
 
-
-
-
--It has 3 private route first one is property details and second one is userprofile
-
-
-
-
-
--you can update profile 
-
-
+- you can update profile 
 
 - it has google login and github login 
 
