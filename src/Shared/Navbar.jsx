@@ -5,7 +5,7 @@ import useAuth from '../Hooks/useAuth';
 
 
 const Menus = () => {
-    const links = [ 'About', 'Featured', 'Contact','UpdateProfile',];
+    const links = [ 'About', 'Featured', 'Contact'];
     return (
         <>
             {
@@ -30,6 +30,9 @@ const NavBar = () => {
                         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                             <Link className='btn text-lg  btn-ghost' >Home</Link>
                             <Menus />
+                            {
+                            user &&  <Link className='btn text-lg  btn-ghost' to='/UpdateProfile' >Update Profile</Link>
+                        }
                         </ul>
                     </div>
                     <Link to='/' className="btn btn-ghost  font-bold lg:w-[100%]   w-[70%] lg:text-3xl">
@@ -39,6 +42,9 @@ const NavBar = () => {
                     <ul className="menu menu-horizontal items-center px-1">
                     <Link className='btn text-lg  btn-ghost' to='/' >Home</Link>
                         <Menus />
+                        {
+                            user &&  <Link className='btn text-lg  btn-ghost' to='/UpdateProfile' >Update Profile</Link>
+                        }
                     </ul>
                 </div>
 
