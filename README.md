@@ -13,6 +13,16 @@
 
 - it has google login and github login 
 
+#The packages I used:
+
+
+- a. AOS Package,
+
+b. React-leaflet,
+
+c. React Hook form,
+
+d. Swiper slider
 
 
 
