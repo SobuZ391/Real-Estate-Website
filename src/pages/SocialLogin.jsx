@@ -41,7 +41,7 @@ const SocialLogin = () => {
             <button className="btn" onClick={() => handleSocialLogin(githubLogin)}>
                 <FaGithub /> GitHub
             </button>
-            {/* Include ToastContainer for displaying toasts */}
+           
             <ToastContainer />
         </div>
     );
