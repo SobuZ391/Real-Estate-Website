@@ -6,7 +6,7 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAyw0QolsZEPgd9XHPgt85R_Nwm0fDhZW8",
+  apiKey: import.meta.env.VITE_APIKEY,
   authDomain: "real-estate-b9-a9.firebaseapp.com",
   projectId: "real-estate-b9-a9",
   storageBucket: "real-estate-b9-a9.appspot.com",
