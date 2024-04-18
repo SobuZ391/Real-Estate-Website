@@ -24,7 +24,7 @@ const Banner = () => {
              <div className=' w-[100%] lg:w-1/2 ' >
               <p className='text-sm text-gray-500' >Luxury Real Estate</p>
               <p className=' text-2xl lg:text-7xl my-4 lg:my-12 text-gray-700'>IT'S TIME <br className='lg:block hidden' /> TO FIND YOUR <br className='lg:block hidden' /> LUXURY HOME</p>
-              <p className='lg:text-lg ' >Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br className='lg:block hidden' />sed do eiusmod tempor incid alor the old familer br olfre <br className='lg:block hidden' /> idunt ut labore ellt.</p>
+              <p className='lg:text-lg ' >Experience the ultimate in relaxation as you find your luxury <br className='lg:block hidden' />home with a soothing in-home massage servicey</p>
              </div>
               <SwiperSlides/>
              </div>
@@ -41,8 +41,8 @@ const Banner = () => {
         </div>
         <div className="flex flex-col justify-center items-start  gap-8">
         <h1 data-aos='zoom-in' className="text-red-500" >WHO WE ARE</h1>
-        <h1 data-aos='zoom-in' data-aos-delay="200" className="text-black text-[40px] font-semibold leading-10 " >Lorem, ipsum dolor sit amet consectetur . </h1>
-        <p data-aos='zoom-in' data-aos-delay='400' className="text-xl text-gray-600 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus alias repellat adipisci, perferendis totam ut provident deleniti. Est, hic autem quia minima alias facere? Nisi magni nostrum dolorum qui numquam in pariatur! Nam neque commodi hic necessitatibus corrupti magnam aliquam aperiam, repudiandae maiores, est esse.</p>
+        <h1 data-aos='zoom-in' data-aos-delay="200" className="text-black text-[40px] font-semibold leading-10 " >Committed to Excellence: Our Dedicated Team</h1>
+        <p data-aos='zoom-in' data-aos-delay='400' className="text-xl text-gray-600 text-justify">We are a team of dedicated professionals who prioritize quality and integrity in all our work. With a strong commitment to excellence, we strive to deliver exceptional services and products to meet the needs of our clients. Our values of innovation, collaboration, and respect guide us as we work to achieve meaningful outcomes and build lasting relationships.</p>
         <div className='' > 
                 <button data-aos='zoom-in' data-aos-delay='400' className='bg-red-600 rounded-xl hover:bg-black text-lg p-4 w-full text-white font-semibold cursor-pointer transform hover:scale-110 transition-transform duration-300' >Read More</button>
                 </div>
