@@ -49,7 +49,7 @@ const About = () => {
 			<p className="w-[60%] mx-auto dark:text-gray-600">
 Meet our exceptional team at Real Estate We take pride in our diverse group of talented professionals who bring a wealth of experience and passion to their roles. </p>
 		</div>
-		<div className="grid w-[70%] grid-cols-1 lg:gap-6 md:grid-cols-2">
+		<div className="grid w-[70%] mx-auto  grid-cols-1 lg:gap-6 md:grid-cols-2">
 			
 			<div className="flex space-x-6">
 				<img alt="" className="flex-1 flex-shrink-0 object-cover h-56 mb-4 bg-center rounded-sm dark:bg-gray-500" src="/images/pexels-1.jpg" />
