@@ -16,13 +16,13 @@
 #The packages I used:
 
 
-- a. AOS Package,
+-  AOS Package,
 
-b. React-leaflet,
+-  React-leaflet,
 
-c. React Hook form,
+-  React Hook form,
 
-d. Swiper slider
+-  Swiper slider
 
 
 
