@@ -1,6 +1,7 @@
 import  { useState } from 'react';
 import UpdateProfile from '../pages/UpdateProfile';
 import useAuth from '../Hooks/useAuth';
+import {Helmet} from "react-helmet";
 
 const UserProfile = () => {
     const { user } = useAuth();
@@ -15,6 +16,11 @@ const UserProfile = () => {
     };
     return (
         <div className="container lg:mx-auto p-2 font-poppins lg:h-[40rem]">
+        <Helmet>
+                <meta charSet="utf-8" />
+                <title>User Profile - Greenix Real Estate</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
             {user ? (
                 <div>
                     <div className="profile-card flex flex-col lg:flex-row justify-center items-center bg-gray-400 text-white shadow-xl glass p-4 lg:p-10 rounded-xl lg:w-3/6 mx-auto">

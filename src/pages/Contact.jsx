@@ -1,6 +1,7 @@
 import AOS from "aos";
 import 'aos/dist/aos.css'
 import { useEffect } from "react";
+import {Helmet} from "react-helmet";
 
 
 const Contact = () => {
@@ -16,6 +17,14 @@ const Contact = () => {
     
     return (
         <div>
+		<div>
+		<Helmet>
+                <meta charSet="utf-8" />
+                <title>Contact-Greenix Real Estate</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
+		</div>
+               
            <div className="grid   max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 dark:bg-gray-100 dark:text-gray-800">
 	<div className="flex flex-col justify-between">
 		<div className="space-y-2">

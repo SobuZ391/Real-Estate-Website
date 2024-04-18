@@ -1,13 +1,20 @@
 import { TbRefresh } from 'react-icons/tb';
 
 import { AiTwotoneLock } from 'react-icons/ai';
+import {Helmet} from "react-helmet";
 
 const About = () => {
     return (
         <>
+			
+
             <div className="px-8 py-12 text-center">
                 
-             
+			<Helmet>
+                <meta charSet="utf-8" />
+                <title>About - Greenix Real Estate</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
               
                 <br />
 				<div className="hero  rounded-md" style={{backgroundImage: 'url(/images/hero1.webp)'}}>
