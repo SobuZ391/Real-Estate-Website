@@ -32,7 +32,8 @@ const NavBar = () => {
                             <Menus />
                         </ul>
                     </div>
-                    <Link to='/' className="btn btn-ghost font-bold lg:w-[100%]  w-[70%] lg:text-3xl">Greenix Real Estate</Link>
+                    <Link to='/' className="btn btn-ghost  font-bold lg:w-[100%]   w-[70%] lg:text-3xl">
+                    <img className='w-16 h-14 hidden lg:block' src="/public/images/office-building-logo-design-real-estate-logo_695276-1674.avif" alt="" />Greenix Real Estate</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal items-center px-1">
