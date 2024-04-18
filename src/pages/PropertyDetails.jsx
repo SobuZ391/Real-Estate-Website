@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { MapContainer, Marker, Popup, TileLayer, useMap } from 'react-leaflet'
-import "leaflet/dist/leaflet.css"; 
+import "leaflet/dist/leaflet.css";
+import { Helmet } from "react-helmet";
+
 const PropertyDetails = () => {
     const { id } = useParams();
     const [estate, setEstate] = useState(null);
@@ -61,8 +63,13 @@ const PropertyDetails = () => {
     return (
         <>
         
-        <div className="flex flex-col  border-2 p-4 rounded-xl m-16" >
+        <Helmet>
+                <meta charSet="utf-8" />
+                <title>Property Details - Greenix Real Estate</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
        
+        <div className="flex flex-col  border-2 p-4 rounded-xl m-16" >
         <div id="slide1" className="carousel-item relative w-[80%] h-[50vh] mx-auto    rounded-xl">
     <img  src={estate.image} className=" w-[100%] lg:w-full rounded-xl" />
    </div>
