@@ -17,7 +17,7 @@ Steps to Run Locally
 - Install the necessary dependencies by running npm install.
 - Create a .env file in the root directory and add the required environment variables.
 - Start the development server with npm run dev.
-- Open http://localhost:3000 in your browser to view the application.
+- Open localhost link that cmd gave you and it will take you  in your browser to view the application.
 
 
 
