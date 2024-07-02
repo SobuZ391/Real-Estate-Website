@@ -10,7 +10,14 @@ Project Features
 
 - you can update profile and the update profile section is hidden
 
-- it has  google login and github login 
+- it has  google login and github login
+
+  technologies used:
+  - Frontend: React.js, Tailwind CSS, React Hook Form, React Helmet, SwiperJS, TanStack Query
+
+  - Database: MongoDB
+
+- Authentication: Firebase Authentication
 
 Steps to Run Locally
 - Clone the repository using git clone https://github.com/username/repo-name.git and navigate to the project directory with cd repo-name.
